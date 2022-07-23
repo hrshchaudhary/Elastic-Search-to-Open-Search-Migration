@@ -1,5 +1,5 @@
 # Elastic-Search-to-Open-Search-Migration
-If you are thinking of migrating Elastic Search to Open Search this repo is for you. This repo provides rest high level client  <br />
+If you are thinking of migrating Elastic Search to Open Search this repo is for you. This repo provides rest high level client.
 Basically there are three steps which are to be used:
 
 1. Provisiong an Open Search Cluster
