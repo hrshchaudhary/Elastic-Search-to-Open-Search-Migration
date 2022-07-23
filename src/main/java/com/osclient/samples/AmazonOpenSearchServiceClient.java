@@ -25,6 +25,12 @@ public class AmazonOpenSearchServiceClient {
     private static final String type = "_doc";
     
     static final AWSCredentialsProvider credentialsProvider = new DefaultAWSCredentialsProviderChain();
+    /*
+    *
+    * DefaultAWSCredentialsProviderChain search for credentials in an order mentioned on below link.
+    * https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
+    * 
+    * */
     
     public static void main(String[] args) throws IOException {
         
@@ -68,10 +74,6 @@ public class AmazonOpenSearchServiceClient {
             }
             else {
                 System.out.println("No failures!");
-                // Uncomment these lines for a line-by-line summary
-//                for (BulkItemResponse bulkItemResponse : bulkResponse) {
-//                    System.out.println(bulkItemResponse.getResponse().toString());
-//                }
             }
         }
         
