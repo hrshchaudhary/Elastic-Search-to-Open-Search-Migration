@@ -7,7 +7,6 @@ Basically there are three steps which are to be used:
 3. Dump data from Elastic Search to Open Search.
 
 ## Details
-This repo assumes that step 1 and step 2 are already done.
 Talking about dumping data. <br />
 There is [elasticdump](https://github.com/elasticsearch-dump/elasticsearch-dump) tool which is used to dump data from one elastic search cluster to another. You just need to make compatible the open search cluster with the elastic search version used, for which nice details are provided as [upgrade paths](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html) by aws. <br />
 To dump indexes you need to follow a path:
